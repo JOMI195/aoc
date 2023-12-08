@@ -12,7 +12,6 @@ int main() {
 
     int red = 12, green = 13, blue = 14;
 
-
     int sumed_ids = 0;
     for (const std::string& game : input)
     {
@@ -34,17 +33,7 @@ int main() {
                 std::vector<std::string> cube = StringParser::toVector(set, " ");
                 int amount = std::stoi(cube[0]);
                 std::cout << amount << " " << cube[1] <<  "\n";
-                if (cube[1] == "blue" && amount > blue)
-                {
-                    validGame = false;
-                    break;
-                }
-                else if (cube[1] == "red" && amount > red)
-                {
-                    validGame = false;
-                    break;
-                }
-                else if (cube[1] == "green" && amount > green)
+                if (cube[1] == "blue" && amount > blue || cube[1] == "red" && amount > red || cube[1] == "green" && amount > green)
                 {
                     validGame = false;
                     break;
@@ -57,7 +46,6 @@ int main() {
         }
         if (validGame)
         {
-            std::cout << "valid" << "\n";
             sumed_ids += game_id;
         }
         std::cout << sumed_ids << "\n";
