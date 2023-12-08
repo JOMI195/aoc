@@ -42,8 +42,6 @@
 /cmake-build-debug/
 /cmake-build-debug-wsl/
 
-CMakeLists.txt
-
 /.idea/
 
 # Sensitive or high-churn files:
