@@ -4,4 +4,4 @@ Welcome to the Advent of Code repository! 🚀 This festive coding challenge is 
 
 ## What is Advent of Code?
 
-Advent of Code is an annual coding event created by Eric Wastl. It consists of 25 daily coding challenges that range from straightforward to mind-bending. The puzzles cover a variety of topics, including algorithms, data structures, and problem-solving skills.
+Advent of Code is an annual coding event created by Eric Wastl. It consists of 24 daily coding challenges that range from straightforward to mind-bending. The puzzles cover a variety of topics, including algorithms, data structures, and problem-solving skills.
