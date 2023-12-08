@@ -44,6 +44,8 @@
 
 CMakeLists.txt
 
+/.idea/
+
 # Sensitive or high-churn files:
 .idea/dataSources.ids
 .idea/dataSources.xml
