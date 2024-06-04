@@ -1,4 +1,4 @@
-![Frame 1](https://github.com/JOMI195/aoc/assets/57303615/a15f8853-13f6-4a6c-a85f-bf70d858e90f)
+![aocTitleBanner](https://github.com/JOMI195/aoc/assets/57303615/1f91e488-45ad-4e17-88d2-3505de6ab657)
 
 # Advent of Code 🎄🌟
 
